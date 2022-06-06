@@ -2,7 +2,7 @@ Author
 Eddah Karambu
 
 Description
-We offer full service catering for any event.We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.Do not hesitate to contact us.
+rock, paper scissors is a hand game played between two people, in which each player simultaneously forms one of three shapes with  an outstretched hand. 
 
 By Eddah Karambu
 Setup/Installation Requirements
