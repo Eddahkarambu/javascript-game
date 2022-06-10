@@ -59,9 +59,12 @@ console.log(playRound(playerSelection, computerSelection));
 let computer = 0;
 let player = 0;
 
-for(let i= 0; i<5; i++){
+for (let i = 0; i < 5; i++){
+  let choice = ["rock","paper","scissors"]
   let answer = prompt("kindly enter between rock, paper and scissors")
- console.log(answer)
+  if (!choice.includes(answer)) {
+    console.log("please enter correct choice")
+  }
   const computerSelection = computerPlay();
   console.log(computerSelection)
   let winner = playRound(computerSelection, answer)
