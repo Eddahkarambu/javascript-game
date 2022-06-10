@@ -5,16 +5,11 @@ const selectWinner = (player) => {
     var item = choices[Math.floor(Math.random()*choices.length)];
 
 }
-
-
-
 const computerPlay =() => {
     const choices = ["rock", "paper", "scissors"];
   var computer = choices[Math.floor(Math.random() * choices.length)];
-  return computer
-  
+  return computer 
 }
-
 
 const playRound = (player, computer) => {
   if (player=== "rock" && computer === "scissors") {
