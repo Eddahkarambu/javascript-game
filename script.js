@@ -2,12 +2,12 @@
 // GAME ONE
 const selectWinner = (player) => {
     const choices = ["rock", "paper", "scissors"];
-    var item = choices[Math.floor(Math.random()*choices.length)];
+    let item = choices[Math.floor(Math.random()*choices.length)];
 
 }
 const computerPlay =() => {
-    const choices = ["rock", "paper", "scissors"];
-  var computer = choices[Math.floor(Math.random() * choices.length)];
+  const choices = ["rock", "paper", "scissors"];
+  let computer = choices[Math.floor(Math.random() * choices.length)];
   return computer 
 }
 
